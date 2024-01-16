@@ -1,0 +1,14 @@
+name: SporeGrowth
+version: '${version}'
+main: io.github.scopedknife.SporeGrowth
+api-version: '1.20'
+authors: [ScopedKnife]
+description: Make spore blossoms grow crops faster
+commands:
+  setradius:
+    description: Sets the horizontal and vertical radii for the spore blossom effect.
+    usage: /<command> <horizontalRadius> <verticalRadius>
+permissions:
+  sporegrowth.setradius:
+    description: Allows the user to set the radii for the spore blossom effect.
+    default: op
